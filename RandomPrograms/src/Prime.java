@@ -1,3 +1,9 @@
+
+/*@author Abhishek Sen
+ *  isPrime function checks whether n is prime or not returns 1->prime   0->not prime
+ *  complexity O(n^0.5)
+ *  but n^0.5 is not calculated mathematically to  avoid overhead 
+ */
 import java.io.*;
 class Prime 
 {
