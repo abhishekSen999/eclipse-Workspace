@@ -1,0 +1,24 @@
+import java.io.*;
+public class BeeMovement 
+{
+	static int xyzMap[]= {1,-1,1,-1,1,-1};
+	static int direction[]= {0,0,0,0,0,0};
+	static final int xyzIniPos[]= {0,0,0};
+	static int xyzFinPos[]= {0,0,0};
+	public static void main(String[] args)throws IOException
+	{
+		BufferedReader buf=new BufferedReader(new InputStreamReader(System.in));
+		System.out.print("Enter the number of steps");
+		int noOfSteps=Integer.parseInt(buf.readLine());
+		System.out.print("enter the no of cases over which deviation has to be calculated: ");
+		int noOfCases=Integer.parseInt(buf.readLine());
+		System.out.println("Initial position of the bee is (x,y,z)=(0,0,0)");
+		
+		xyzIniPos[0]=1;
+		
+		
+		
+
+	}
+
+}
